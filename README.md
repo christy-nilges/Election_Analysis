@@ -1,6 +1,6 @@
 # Election_Analysis
 
-## Project Overview
+## Overview of Election Audit
 A Colorado board of Elections employee has given the following tasks to complete the election audit of a recent local congressional election.
 
 1. Calculate the total number of votes case.
@@ -16,7 +16,7 @@ A Colorado board of Elections employee has given the following tasks to complete
 - Date Source: election_results.csv
 - Software: Python 3.8.8, Visual Studio Code, 1.59.1
 
-## Summary
+## Election-Audit Results
 The analysis of the election show that: 
 - There were 369,711 votes case in the election.
 - The candidates were:
@@ -36,9 +36,9 @@ The analysis of the election show that:
 - The county with the most turnout was:
     -  Denver, who had 82.8% of the votes and 306,055 number of votes
  
-## Challenge Overview
+## Election-Audit Summary
 
-## Challenge Summary
+
 
 
 
