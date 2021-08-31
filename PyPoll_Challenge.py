@@ -5,9 +5,9 @@
 import csv
 import os
 
-# Add a variable to load a file from a path.
-file_to_load = os.path.join("..", "Resources", "election_results.csv")
-# Add a variable to save the file to a path.
+# Assign a variable to load a file from a path.
+file_to_load = os.path.join("Resources", "election_results.csv")
+# Assign a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
 # Initialize a total vote counter.
@@ -20,7 +20,6 @@ candidate_votes = {}
 # 1: Create a county list and county votes dictionary.
 county_names = []
 county_votes = {}
-
 
 # Track the winning candidate, vote count and percentage
 winning_candidate = ""
@@ -108,7 +107,6 @@ with open(file_to_save, "w") as txt_file:
         if (county_vote > largest_vote_county):
             largest_vote_county = county_vote
             largest_turnout_county = county
-
     # 7: Print the county with the largest turnout to the terminal.
     largest_turnout_county = (
         f"--------------------------\n"
